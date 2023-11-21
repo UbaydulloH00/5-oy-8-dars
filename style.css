@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgrey;
+
+}
+.bclok{
+    padding: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px gray;
+}
+.bclok input{
+    width: 32%;
+    padding: 5px;
+    /* outline: none; */
+}
+.bclok input[type='button']{
+    width: 25%;
+    background-color: rgb(4, 0, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.jadval {
+    padding: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 3px gray;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th,td{
+    border: 1px solid black;
+    padding: 5px;
+}
+.action{
+    color: red;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+#edite{
+    font-weight: 600;
+    color: blue;
+}
